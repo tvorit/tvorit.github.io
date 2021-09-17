@@ -1,0 +1,54 @@
+
+
+body {
+    background-color: #ebccb1;
+}
+#miha {
+    width: 80%;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 29px;
+    border-radius: 4px;
+    background: #34edf5;
+    background-position: center;
+    color: #000000;
+}
+#back{
+    width: 80%;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 29px;
+    border-radius: 4px;
+    background: #ec0c0c;
+    background-position: center;
+    color: #000000;
+}
+#nastya {
+    width: 80%;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 29px;
+    border-radius: 4px;
+    background: #34edf5;
+    background-position: bottom;
+    color: #000000;
+}
+@media screen and (max-width: 480px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background: width: 100px;
+
+    }
+}
+@media screen and (max-width: 467px) {
+    #miha, #nastya {
+        width: 95%;
+    }
+
+}
