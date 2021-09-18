@@ -46,11 +46,9 @@ body {
     }
     body {
         background-image: url("1111.jpg");
-        background-size: 100%;
+        background-size: 200%;
     #miha, #nastya {
         width: 100%;
-        font-weight: 500px;
-        font-size: 24px;
     }
 
     }
@@ -64,8 +62,6 @@ body {
         background-size: 100%;
     #miha, #nastya {
         width: 100%;
-        font-weight: 500px;
-        font-size: 12px;
     }
 }
 
