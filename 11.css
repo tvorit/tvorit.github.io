@@ -44,14 +44,16 @@ body {
     body {
         background: width: 100px;
     #miha, #nastya {
-        width: 75%;
+        width: 100%;
+        font-size: 80%;
     }
 
     }
 }
 @media screen and (max-width: 361px) {
     #miha, #nastya {
-        width: 50%;
+        width: 75%;
+        font-size: 70%;
     }
 
 }
