@@ -2,6 +2,7 @@
 
 body {
     background-color: #ebccb1;
+    background-size: 100%;
 }
 #miha {
     width: 80%;
@@ -42,7 +43,7 @@ body {
         width: auto;
     }
     body {
-        background: width: 100px;
+            background-size: 100%;
     #miha, #nastya {
         width: 100%;
         font-size: 80%;
@@ -56,6 +57,7 @@ body {
         width: auto;
             }
     body {
+        background-size: 100%;
     #miha, #nastya {
         width: 100%;
         font-size: 70%;
