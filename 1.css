@@ -61,6 +61,7 @@ body {
     body {
         background-image: url("1111.jpg");
         background-size: 200%;
+        background-position: bottom;
     #miha, #nastya {
         width: 100%;
     }
@@ -75,7 +76,7 @@ body {
     body {
         background-image: url("1111.jpg");
         background-size: 200%;
-        background-position: center;
+        background-position: bottom;
     #miha, #nastya {
         width: 100%;
     }
