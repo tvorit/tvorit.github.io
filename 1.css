@@ -38,7 +38,7 @@ body {
     color: #000000;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 481px) {
     article {
         float: none;
         width: auto;
@@ -51,7 +51,7 @@ body {
 
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     #miha, #nastya {
         width: 75%;
     }
