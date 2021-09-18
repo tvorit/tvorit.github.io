@@ -2,6 +2,7 @@
 
 body {
     background-image: url("1111.jpg");
+    background-size: 100%;
 }
 
 #back{
@@ -44,7 +45,8 @@ body {
         width: auto;
     }
     body {
-        background-image: url("1111.jpg") width: 100px;
+        background-image: url("1111.jpg");
+        background-size: 100%;
     #miha, #nastya {
         width: 100%;
         font-size: 80%;
@@ -58,6 +60,7 @@ body {
         width: auto;
     }
     body {
+        background-size: 100%;
     #miha, #nastya {
         width: 100%;
         font-size: 70%;
