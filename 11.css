@@ -51,9 +51,14 @@ body {
     }
 }
 @media screen and (max-width: 361px) {
+    article {
+        float: none;
+        width: auto;
+            }
+    body {
     #miha, #nastya {
         width: 85%;
         font-size: 70%;
-    }
-
+                    }
+          }
 }
