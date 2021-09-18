@@ -46,7 +46,7 @@ body {
     body {
         background-image: url("1111.jpg") width: 100px;
     #miha, #nastya {
-        width: 100%;
+        width: 95%;
         font-size: 80%;
     }
 
@@ -54,7 +54,7 @@ body {
 }
 @media screen and (max-width: 361px) {
     #miha, #nastya {
-        width: 75%;
+        width: 85%;
         font-size: 70%;
     }
 
