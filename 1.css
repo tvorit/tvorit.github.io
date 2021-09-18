@@ -50,7 +50,7 @@ body {
         background-size: 150%;
         background-position: top;
     #miha, #nastya {
-        width: 100%;
+        width: auto;
     }
 
     }
@@ -65,7 +65,7 @@ body {
         background-size: 200%;
         background-position: top;
     #miha, #nastya {
-        width: 100%;
+        width: auto;
     }
 
     }
@@ -80,7 +80,6 @@ body {
         background-size: 220%;
         background-position: top;
     #miha, #nastya {
-        font-size: auto;
         width: auto;
     }
 
@@ -96,7 +95,7 @@ body {
         background-size: 300%;
         background-position: top;
     #miha, #nastya {
-        width: auto;
+        width: 360px;
     }
 }
 
