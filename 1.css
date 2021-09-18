@@ -3,6 +3,7 @@
 body {
     background-image: url("1111.jpg");
     background-size: 100%;
+    background-position: center;
 }
 
 #back{
@@ -35,10 +36,23 @@ body {
     font-size: 32px;
     border-radius: 4px;
     background: #34edf5;
-    background-position: bottom;
+    background-position: center;
     color: #000000;
 }
+@media screen and (max-width: 1200px) and (min-width: 481px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background-image: url("1111.jpg");
+        background-size: 200%;
+    #miha, #nastya {
+        width: 100%;
+    }
 
+    }
+}
 @media screen and (max-width: 481px) and (min-width: 361px) {
     article {
         float: none;
