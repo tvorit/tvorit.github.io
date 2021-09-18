@@ -40,7 +40,7 @@ body {
     color: #000000;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 721px) {
+@media screen and (max-width: 1200px) and (min-width: 781px) {
     article {
         float: none;
         width: auto;
@@ -55,7 +55,7 @@ body {
 
     }
 }
-@media screen and (max-width: 720px) and (min-width: 481px) {
+@media screen and (max-width: 780px) and (min-width: 481px) {
     article {
         float: none;
         width: auto;
