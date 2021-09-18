@@ -3,6 +3,7 @@
 body {
     background-image: url("1111.jpg");
     background-size: 100%;
+    background-position: top;
 }
 
 #back{
@@ -38,7 +39,23 @@ body {
     background-position: center;
     color: #000000;
 }
-@media screen and (max-width: 1200px) and (min-width: 481px) {
+
+@media screen and (max-width: 1200px) and (min-width: 720px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background-image: url("1111.jpg");
+        background-size: 150%;
+        background-position: top;
+    #miha, #nastya {
+        width: 100%;
+    }
+
+    }
+}
+@media screen and (max-width: 720px) and (min-width: 481px) {
     article {
         float: none;
         width: auto;
@@ -53,14 +70,14 @@ body {
 
     }
 }
-@media screen and (max-width: 481px) and (min-width: 361px) {
+@media screen and (max-width: 480px) and (min-width: 361px) {
     article {
         float: none;
         width: auto;
     }
     body {
         background-image: url("1111.jpg");
-        background-size: 200%;
+        background-size: 220%;
         background-position: top;
     #miha, #nastya {
         width: 100%;
@@ -68,14 +85,14 @@ body {
 
     }
 }
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 360px) {
     article {
         float: none;
         width: auto;
     }
     body {
         background-image: url("1111.jpg");
-        background-size: 200%;
+        background-size: 300%;
         background-position: top;
     #miha, #nastya {
         width: 100%;
