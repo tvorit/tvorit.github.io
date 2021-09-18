@@ -40,7 +40,7 @@ body {
     color: #000000;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 720px) {
+@media screen and (max-width: 1200px) and (min-width: 721px) {
     article {
         float: none;
         width: auto;
@@ -80,7 +80,7 @@ body {
         background-size: 220%;
         background-position: top;
     #miha, #nastya {
-        width: 100%;
+        width: 200%;
     }
 
     }
@@ -95,7 +95,7 @@ body {
         background-size: 300%;
         background-position: top;
     #miha, #nastya {
-        width: 100%;
+        width: 200%;
     }
 }
 
