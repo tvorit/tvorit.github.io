@@ -88,14 +88,14 @@ body {
 @media screen and (max-width: 360px) and (min-width: 245px) {
     article {
         float: none;
-        width: auto;
+        
     }
     body {
         background-image: url("1111.jpg");
         background-size: 300%;
         background-position: top;
     #miha, #nastya {
-        width: auto;
+        width: 360px;
     }
 }
 
