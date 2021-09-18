@@ -3,7 +3,6 @@
 body {
     background-image: url("1111.jpg");
     background-size: 100%;
-    background-position: center;
 }
 
 #back{
@@ -76,7 +75,7 @@ body {
     }
     body {
         background-image: url("1111.jpg");
-        background-size: 100%;
+        background-size: 200%;
         background-position: center;
     #miha, #nastya {
         width: 100%;
