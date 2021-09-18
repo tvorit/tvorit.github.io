@@ -89,12 +89,14 @@ body {
     article {
         float: none;
         width: auto;
+        height: auto;
     }
     body {
         background-image: url("1111.jpg");
         background-size: 300%;
         background-position: top;
     #miha, #nastya {
+        height: auto;
         width: auto;
     }
 }
@@ -104,12 +106,14 @@ body {
     article {
         float: none;
         width: auto;
+        height: auto;
     }
     body {
         background-image: url("1111.jpg");
         background-size: 400%;
         background-position: top;
     #miha, #nastya {
+         height: auto;
          width: auto; 
     }
 }
