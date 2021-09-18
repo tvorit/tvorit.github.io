@@ -85,7 +85,7 @@ body {
 
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) and (min-width: 245px) {
     article {
         float: none;
         width: auto;
@@ -95,7 +95,22 @@ body {
         background-size: 300%;
         background-position: top;
     #miha, #nastya {
-        width: 360px;
+        width: auto;
+    }
+}
+
+}
+@media screen and (max-width: 244px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background-image: url("1111.jpg");
+        background-size: 350%;
+        background-position: top;
+    #miha, #nastya {
+         width: auto; 
     }
 }
 
