@@ -45,12 +45,15 @@ body {
     }
     body {
         background-image: url("1111.jpg") width: 100px;
+    #miha, #nastya {
+        width: 95%;
+    }
 
     }
 }
-@media screen and (max-width: 467px) {
+@media screen and (max-width: 360px) {
     #miha, #nastya {
-        width: 95%;
+        width: 75%;
     }
 
 }
