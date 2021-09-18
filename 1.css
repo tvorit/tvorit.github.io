@@ -5,7 +5,7 @@ body {
 }
 
 #back{
-    width: 80%;
+    width: 100%;
     height: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -16,7 +16,7 @@ body {
     color: #000000;
 }
 #miha {
-    width: 80%;
+    width: 100%;
     height: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -27,7 +27,7 @@ body {
     color: #000000;
 }
 #nastya {
-    width: 80%;
+    width: 100%;
     height: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -46,16 +46,22 @@ body {
     body {
         background-image: url("1111.jpg") width: 100px;
     #miha, #nastya {
-        width: 95%;
+        width: 100%;
         font-size: 80%;
     }
 
     }
 }
 @media screen and (max-width: 361px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
     #miha, #nastya {
-        width: 85%;
+        width: 100%;
         font-size: 70%;
     }
+}
 
 }
