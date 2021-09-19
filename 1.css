@@ -7,7 +7,7 @@ body {
 }
 
 #back{
-    width: 500px;
+    padding: 15px;
     height: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900px;
@@ -18,7 +18,7 @@ body {
     color: #000000;
 }
 #miha {
-    width: 500px;
+    padding: 15px;
     height: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900px;
@@ -29,7 +29,7 @@ body {
     color: #000000;
 }
 #nastya {
-    width: 500px;
+    padding: 15px;
     height: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900px;
@@ -65,7 +65,8 @@ body {
         background-size: 200%;
         background-position: top;
     #miha, #nastya {
-        width: auto;
+
+        width: 1000px;
     }
 
     }
