@@ -7,30 +7,33 @@ body {
 }
 
 #back{
+    width: 500px;
     height: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900px;
-    font-size: 32px;
+    font-size: 20px;
     border-radius: 4px;
     background: #ec0c0c;
     background-position: center;
     color: #000000;
 }
 #miha {
+    width: 500px;
     height: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900px;
-    font-size: 32px;
+    font-size: 20px;
     border-radius: 4px;
     background: #34edf5;
     background-position: center;
     color: #000000;
 }
 #nastya {
+    width: 500px;
     height: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900px;
-    font-size: 32px;
+    font-size: 20px;
     border-radius: 4px;
     background: #34edf5;
     background-position: center;
