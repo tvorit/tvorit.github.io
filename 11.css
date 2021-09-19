@@ -40,7 +40,7 @@ body {
     background-position: bottom;
     color: #000000;
 }
-@media screen and (max-width: 481px) and (min-width: 361px) {
+@media screen and (max-width: 560px) and (min-width: 361px) {
     article {
         float: none;
         width: auto;
@@ -53,7 +53,7 @@ body {
 
     }
 }
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 360px) {
     article {
         float: none;
         width: auto;
@@ -66,7 +66,7 @@ body {
           }
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 561px){
     #nastya {
         width: 60%;
         font-family: 'Times New Roman', Times, serif;
