@@ -46,9 +46,7 @@ body {
         width: auto;
     }
     body {
-        background-image: url("1111.jpg");
-        background-size: 150%;
-        background-position: top;
+        background-color: #ebccb1;
     #miha, #nastya {
         width: auto;
     }
@@ -61,11 +59,7 @@ body {
         width: auto;
     }
     body {
-        background-image: url("1111.jpg");
-        background-size: 200%;
-        background-position: top;
-
-
+        background-color: #ebccb1;
     }
 }
 @media screen and (max-width: 560px) and (min-width: 361px) {
@@ -74,9 +68,7 @@ body {
         width: auto;
     }
     body {
-        background-image: url("1111.jpg");
-        background-size: 232%;
-        background-position: top;
+        background-color: #ebccb1;
     #miha, #nastya {
         width: auto;
     }
@@ -90,9 +82,7 @@ body {
         height: auto;
     }
     body {
-        background-image: url("1111.jpg");
-        background-size: 300%;
-        background-position: top;
+        background-color: #ebccb1;
     #miha, #nastya {
         height: 100px;
         width: auto;
@@ -107,9 +97,7 @@ body {
         height: auto;
     }
     body {
-        background-image: url("1111.jpg");
-        background-size: 400%;
-        background-position: top;
+        background-color: #ebccb1;
     #miha, #nastya {
          height: 100px;
          width: auto; 
