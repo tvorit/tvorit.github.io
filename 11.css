@@ -56,6 +56,9 @@ body {
     }
 }
 @media screen and (min-width: 561px){
+    body {
+    widht: auto;
+}
     #miha {
         padding: 0;
         width: 60%;
