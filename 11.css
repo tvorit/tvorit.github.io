@@ -42,18 +42,27 @@ body {
         float: none;
         width: auto;
     }
+    body {
+    widht: auto;
+}
 }
 @media screen and (max-width: 360px) and (min-width: 245px) {
     article {
         float: none;
         width: auto;
     }
+    body {
+    widht: auto;
+}
 }
 @media screen and (max-width: 244px) {
     article {
         float: none;
         width: auto;
     }
+    body {
+    widht: auto;
+}
 }
 @media screen and (min-width: 561px){
     body {
