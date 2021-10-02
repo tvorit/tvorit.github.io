@@ -1,8 +1,3 @@
-body {
-    background-image: url("1111.jpg");
-    background-size: 100%;
-    background-position: top;
-}
 #back{
     width: 100%;
     padding: 15px;
@@ -36,9 +31,6 @@ body {
         background-image: url("1111.jpg");
         background-size: 150%;
         background-position: top;
-    #miha {
-        width: auto;
-    }
     }
 }
 @media screen and (max-width: 780px) and (min-width: 561px) {
@@ -61,9 +53,6 @@ body {
         background-image: url("1111.jpg");
         background-size: 232%;
         background-position: top;
-    #miha {
-        width: auto;
-    }
     }
 }
 @media screen and (max-width: 360px) and (min-width: 245px) {
@@ -75,11 +64,7 @@ body {
         background-image: url("1111.jpg");
         background-size: 332%;
         background-position: top;
-    #miha {
-        height: 100px;
-        width: auto;
     }
-}
 }
 @media screen and (max-width: 244px) {
     article {
@@ -90,13 +75,13 @@ body {
         background-image: url("1111.jpg");
         background-size: 400%;
         background-position: top;
-    #miha {
-         height: 100px;
-         width: auto; 
-    }
 }
 }
 @media screen and (min-width: 561px){
+    body {
+        background-image: url("1111.jpg");
+        background-size: 100%;
+        background-position: top;
     #miha {
         padding: 0;
         width: 60%;
