@@ -11,8 +11,7 @@ body {
     font-weight: 900px;
     font-size: 20px;
     border-radius: 4px;
-    background: #ec0c0c;
-    background-position: center;
+    background-color: #ec0c0c;
     color: #000000;
 }
 #miha {
@@ -23,8 +22,7 @@ body {
     font-weight: 900px;
     font-size: 20px;
     border-radius: 4px;
-    background: #34edf5;
-    background-position: center;
+    background-color: #34edf5;
     color: #000000;
 }
 @media screen and (max-width: 1200px) and (min-width: 781px) {
