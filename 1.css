@@ -2,6 +2,7 @@ body {
         background-image: url("1111.jpg");
         background-size: 100%;
         background-position: top;
+        font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 #back{
     width: 100%;
