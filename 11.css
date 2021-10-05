@@ -19,7 +19,7 @@ h1 {
   margin: 2px 2px 0 0;
 }
 #pe p:first-line {
-  letter-spacing: 1px;
+    font-variant: small-caps;
 }
 #pe p:last-child {
   margin-bottom: 30px;
