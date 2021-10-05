@@ -4,7 +4,7 @@ body {
     font-weight: 900px;
     font-size: 16px;
 }
-#ce {
+#poem {
     text-align: center;
 }
 h1 {
@@ -12,25 +12,25 @@ h1 {
   line-height: 1.2;
   margin-bottom: 10px;
 }
-p:first-letter {
+#poem p:first-letter {
   float: left;
   font-size: 38px;
   line-height: 1;
   margin: 2px 5px 0 0;
 }
-p:first-line {
+#poem p:first-line {
   font-variant: small-caps;
   letter-spacing: 1px;
 }
-p:last-child {
+#poem p:last-child {
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
-div, h1, h2, p {
+#poem div, h1, h2, p {
     margin: 0;
     padding: 0;
 }
-p {
+#poem p {
   margin: auto;
   padding: 20px 0;
   text-align: left;
