@@ -9,6 +9,20 @@ h1 {
   line-height: 1.2;
   margin-bottom: 10px;
 }
+p:first-letter {
+  float: left;
+  font-size: 38px;
+  line-height: 1;
+  margin: 2px 5px 0 0;
+}
+p:first-line {
+  font-variant: small-caps;
+  letter-spacing: 1px;
+}
+p:last-child {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
 #back {
     width: 100%;
     padding: 15px;
