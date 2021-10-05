@@ -12,17 +12,17 @@ h1 {
   line-height: 1.2;
   margin-bottom: 10px;
 }
-#poem p:first-letter {
+#pe p:first-letter {
   float: left;
   font-size: 38px;
   line-height: 1;
   margin: 2px 5px 0 0;
 }
-#poem p:first-line {
+#pe p:first-line {
   font-variant: small-caps;
   letter-spacing: 1px;
 }
-#poem p:last-child {
+#pe p:last-child {
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
