@@ -4,6 +4,11 @@ body {
         background-position: top;
         font-family: Arial, Verdana, Helvetica, sans-serif;
 }
+h1 {
+  font-size: 34px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
 #back{
     width: 100%;
     padding: 15px;
