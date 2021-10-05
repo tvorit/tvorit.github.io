@@ -23,6 +23,16 @@ p:last-child {
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
+div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+p {
+  margin: auto;
+  padding: 20px 0;
+  text-align: left;
+  width: 390px;
+}
 #back {
     width: 100%;
     padding: 15px;
