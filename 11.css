@@ -28,6 +28,7 @@ h1 {
   position: sticky;
   right: 50%;
   margin: auto;
+  width: 382px;
 }
 #back {
     width: 100%;
