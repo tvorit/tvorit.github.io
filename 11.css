@@ -28,7 +28,7 @@ h1 {
   position: sticky;
   right: 50%;
   margin: auto;
-  width: 50%;
+  width: auto;
 }
 #back {
     width: 100%;
