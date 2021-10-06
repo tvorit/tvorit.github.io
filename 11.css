@@ -26,7 +26,7 @@ h1 {
 }
 #poem p, h1 {
   margin: auto;
-  padding: 20px 0;
+  padding: 20px 10px 0 0;
   text-align: left;
   width: 382px;
 }
