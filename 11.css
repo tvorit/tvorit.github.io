@@ -66,12 +66,18 @@ h1 {
         float: none;
         width: auto;
     }
+    body {
+    widht: auto;
+}
 }
 @media screen and (max-width: 780px) and (min-width: 561px) {
     article {
         float: none;
         width: auto;
     }
+    body {
+    widht: auto;
+}
 }
 @media screen and (max-width: 560px) and (min-width: 361px) {
     article {
