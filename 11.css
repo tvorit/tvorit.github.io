@@ -6,10 +6,14 @@ body {
 }
 #сe {
     margin: auto;
-    width: 50%;
     padding: 20px 10px 0 64px;
-    text-align: center;
+    text-align: left;
+    width: 382px;
     display: block;
+}
+#сe div, h1, h2, p {
+    margin: 0;
+    padding: 0;
 }
 #poem {
     text-align: center;
