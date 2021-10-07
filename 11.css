@@ -8,6 +8,7 @@ body {
     text-align: center;
     widht: auto;
     position: sticky;
+    right: 50%;
 }
 #poem {
     text-align: center;
