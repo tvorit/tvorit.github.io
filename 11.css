@@ -3,9 +3,10 @@ body {
     font-family: Arial, Verdana, Helvetica, sans-serif;
     font-weight: 900px; 
     font-size: 16px;
+    widht: auto;
 }
 #сe {
-    float: center;
+    margin: auto;
 }
 #poem {
     text-align: center;
