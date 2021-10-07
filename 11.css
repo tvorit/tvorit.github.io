@@ -5,8 +5,8 @@ body {
     font-size: 16px;
 }
 #сe {
-  position: sticky;
-  right: 50%;
+    text-align center; 
+    width: 50%;
 }
 #poem {
     text-align: center;
