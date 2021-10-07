@@ -6,6 +6,8 @@ body {
 }
 #сe {
     text-align: center;
+    widht: auto;
+    position: sticky;
 }
 #poem {
     text-align: center;
