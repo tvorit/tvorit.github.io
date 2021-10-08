@@ -23,11 +23,11 @@ h1 {
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
-#poem div, h1, h2, p {
+#poem div, h2, p {
     margin: 0;
     padding: 0;
 }
-#poem p, h1 {
+#poem p {
   margin: auto;
   padding: 20px 10px 0 70px;
   text-align: left;
