@@ -5,23 +5,11 @@ body {
     font-size: 17px;
     widht: auto;
 }
-#сe {
-}
 h1 {
   font-size: 34px;
 }
 #poem {
     text-align: center;
-}
-#pe p:first-letter {
-  float: left;
-  font-size: 38px;
-  line-height: 1;
-  margin: -2px 2px 0 0;
-}
-#pe p:last-child {
-  margin-bottom: 30px;
-  padding-bottom: 30px;
 }
 #poem div, h2, p {
     margin: 0;
