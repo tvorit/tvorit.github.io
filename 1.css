@@ -1,5 +1,5 @@
 body {
-        background-image: no-repeat url("1111.jpg") fixed;
+        background-image: url("1111.jpg");
         background-size: 100%;
         background-position: top;
         font-family: Arial, Verdana, Helvetica, sans-serif;
