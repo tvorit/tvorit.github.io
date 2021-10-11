@@ -88,6 +88,82 @@
         </div>
     </div>
 </div>
+                    <div class="tab-pane" id="product-reviews-content" role="tabpanel" aria-labelledby="product-tab-reviews">
+                    <div class="product-reviews-content">
+                        <div id="divGameComments">
+                            Загрузка...
+                            <div itemscope itemtype="http://schema.org/UserComments">
+    <ol class="comment-list" id="commentsContainer">
+        <li class="comment-container">
+            <a id="comment_3912"></a>
+            <div class="comment-avatar">
+                <img src="https://playminigames.ru/content/Porto/assets/images/avatar/avatar1.jpg" width="65" height="65" alt="avatar">
+            </div>
+            <div class="comment-box">
+                <div class="ratings-container">
+                    <div class="product-ratings">
+                        <span class="ratings" style="width:100%"></span>
+                    </div>
+                </div>
+                <div class="comment-info mb-1">
+                    <h4 itemprop="creator" class="avatar-name">kittytoe</h4> - <span itemprop="commentTime" class="comment-date">02-03-2021 14:29:07</span>
+                </div>
+                <div class="comment-text" itemprop="commentText">
+                    Wow Critical Strike Portable! That's incredible game, i will play it later...                                <br />
+                </div>
+            </div>
+        </li>
+    </ol>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display:none">
+            <div itemscope itemtype="http://schema.org/Offer" itemprop="offers">
+                <meta itemprop="price" content="0" />
+                <meta itemprop="priceCurrency" content="USD" />
+                <meta itemprop="availability" content="http://schema.org/InStock" />
+            </div>
+            <meta itemprop="applicationCategory" content="Игры" />
+            <meta itemprop="applicationSubCategory" content="По сети (Мультиплеер)" />
+            <meta itemprop="operatingSystem" content="Html 5" />
+        </div>
+    </div>
+</div>
+<link href="/js/inner/raty/jquery.raty.min.css" rel="stylesheet" />
+<script src="/js/inner/raty/jquery.raty.min.js"></script>
+<script src="/js/inner/Views/Game/GameDetails.min.js?v=3"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var v1 = '/item/deletecomment';
+        var v2 = '8706';
+        var v3 = '/gameerror/senderror';
+        var v4 = '/item/getgamecomments';
+        var v5 = '/item/getgameearliercomments';
+        var v6 = '/gameerror/getsenderrordialog?gameId=8706';
+        var langWords = {
+            AreUouSureToRemoveThisComment: 'Вы уверены что хотите удалить этот комментарий?',
+            MessageCommentaryRemovedSuccess: 'Комментарий удален успешно',
+            Press: 'Нажмите',
+            ToBookMarkThisPage: 'Добавить в закладки эту страницу',
+            AreUouSureToSendMessageGameError: 'Вы уверены что игра не работает или есть ошибки?',
+            MeesageAboutGameErrorSendSuccess: 'Сообщение об ошибках успешно отправленно, спасибо',
+            AddedSuccess: 'Добавлено успешно',
+            ErrorSending: 'Непредвиденная ошибка',
+            DescribeYourError: 'Опишите ошибку',
+            Yes: 'Да',
+            No: 'Нет',
+
+            loading: "Загрузка...",
+            saveChanges: "Сохранить",
+            dialog: "Dialog",
+            close: "Закрыть"
+        };
+        gameDetailsHandler(v1, v2, v3, v4, v5, v6, langWords);
+    });
+</script>
 </body>
 </html>
                   
