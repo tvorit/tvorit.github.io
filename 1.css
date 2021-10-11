@@ -1,5 +1,6 @@
 body {
         background-image: url("1111.jpg");
+        background-attachment: fixed;
         background-size: 100%;
         background-position: top;
         font-family: Arial, Verdana, Helvetica, sans-serif;
