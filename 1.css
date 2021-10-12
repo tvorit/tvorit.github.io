@@ -80,6 +80,10 @@ h1 {
         background-size: 250%;
         background-position: top;
     }
+        #gl {
+        float: none;
+        width: 100%;        
+        }
 }
 @media screen and (max-width: 360px) and (min-width: 245px) {
     article {
@@ -90,6 +94,10 @@ h1 {
         background-size: 332%;
         background-position: top;
     }
+        #gl {
+        float: none;
+        width: 100%;        
+        }
 }
 @media screen and (max-width: 244px) {
     article {
@@ -100,6 +108,10 @@ h1 {
         background-size: 400%;
         background-position: top;
 }
+        #gl {
+        float: none;
+        width: 100%;        
+        }
 }
 @media screen and (min-width: 700px){
     #miha {
