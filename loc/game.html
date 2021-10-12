@@ -12,15 +12,8 @@
 <link rel="icon" href="/favicon.ico?" type="image/x-icon">
 	<style>
 		body { 
-       	margin: 0; 
-       	padding: 0
+       	overflow: hidden; 
      		}
-		#c { 
-     	position: absolute; 
-     	width: 100%; 
-     	height: 100%; 
-     	overflow: hidden
-		}
 		</style>
 </head>
 <body>
@@ -35,8 +28,7 @@
     <div id="game-cat-wrapper" style="display: block; background-color: #ebccb1;">
         <div id="game-cat-content">
             <div id="game-cat-link-end" ></div>
-            <script src="gam.js"><canvas id="c"></canvas>
-	    </script>
+            <canvas width="935" height="282"></canvas>
             <div id="start" onclick="game.initStart(); this.style.visibility = 'hidden';"></div>
             <div id="skip" onclick="game.startNewGame(); this.style.visibility = 'hidden';"></div>
             <div id="replay" onclick="game.replay(); this.style.visibility = 'hidden';"></div>
@@ -47,7 +39,7 @@
     <div class="scripts">
         <script src="https://index.from.sh/js/raphael.js"></script>
         <script src="https://index.from.sh/js/points.js"></script>
-        <script src="https://index.from.sh/js/cat.js?20170516_10"></script>
+        <script src="https://index.from.sh/js/cat.js"></script>
         <script type="text/javascript">
             function toggleVisible(el) {
                 if (el.style.visibility == 'hidden') {
