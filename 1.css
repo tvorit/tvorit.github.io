@@ -11,7 +11,7 @@ h1 {
   margin-bottom: 10px;
 }
 #back {
-    float: none;
+    display: block;
     width: 100%;
     padding: 15px;
     height: 50px;
