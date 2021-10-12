@@ -16,22 +16,23 @@ embed_game_params = {
     fontFamily: "Arial",
     fontSize: "16",
     bodyBgColor: "#ebccb1",
-    bgColor1: "#34edf5",
+    bgColor1: "#5AFFFF",
     bgColor2: "#34edf5",
     sandbox: false
 };
 document.write('<sc'+'ript type="text/javascript" src="https://chess-samara.ru/js/embed_game.js"></sc'+'ript>');
-</script>      <br><br><div id="mc-container"></div>
-<script type="text/javascript">
-cackle_widget = window.cackle_widget || [];
-cackle_widget.push({widget: 'Comment', id: 78072});
-(function() {
-    var mc = document.createElement('script');
-    mc.type = 'text/javascript';
-    mc.async = true;
-    mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
-})();
+</script>      <br><br><div id="anycomment-app"></div>
+<script>
+AnyComment = window.AnyComment || []; AnyComment.Comments = [];
+AnyComment.Comments.push({
+    "root": "anycomment-app",
+    "app_id": 2954,
+    "language": "ru"
+})
+var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+s.src = "https://widget.anycomment.io/comment/embed.js";
+var sa = document.getElementsByTagName("script")[0];
+sa.parentNode.insertBefore(s, s.nextSibling);
 </script>
 <a id="mc-link" href="https://cackle.me"></a>
   </body>
