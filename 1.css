@@ -41,13 +41,23 @@ h1 {
     background-color: #34edf5;    
     color: #000000;
 }
-@media screen and (max-width: 1200px) and (min-width: 781px) {
+@media screen and (max-width: 1444px) and (min-width: 1201px) {
     article {
         float: none;
         width: auto;
     }
     body {
         background-size: 150%;
+        background-position: top;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 781px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background-size: 170%;
         background-position: top;
     }
 }
@@ -67,7 +77,7 @@ h1 {
         width: auto;
     }
     body {
-        background-size: 232%;
+        background-size: 250%;
         background-position: top;
     }
 }
