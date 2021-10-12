@@ -21,6 +21,7 @@ h1 {
     color: #000000;
 }
 #gl {
+    position: fixed;
     float: left;
     width: auto;
     padding: 15px;
