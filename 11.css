@@ -18,7 +18,7 @@ h1 {
   	text-align: left;
   	width: 390px;
 }
- p {
+ p, h2 {
     	margin: 0;
     	padding: 0;
 }
