@@ -145,6 +145,6 @@ h1 {
 @media screen and (min-width: 560px){
 	.gl {
 		position: fixed;
-		border-radius: 32px;
+		border-radius: 50%;
 	}
 }
