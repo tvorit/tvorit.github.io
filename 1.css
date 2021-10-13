@@ -4,13 +4,15 @@ body {
         background-size: 100%;
         background-position: top;
         font-family: Arial, Verdana, Helvetica, sans-serif;
+		font-size: 16px;
+		font-weight: 900px;
 } 
 h1 {
   font-size: 34px;
   line-height: 1.2;
   margin-bottom: 10px;
 }
-#back {
+.back {
     width: 100%;
     padding: 15px;
     height: 50px;
@@ -20,8 +22,9 @@ h1 {
     background-color: #ec0c0c;
     color: #000000;
 }
-#gl {
+.gl {
     float: left;
+	right: 90%;
     width: auto;
     padding: 15px;
     height: 50px;
@@ -31,7 +34,7 @@ h1 {
     background-color: rgb(0, 215, 50);
     color: #000000;
 }
-#miha {
+.miha {
     width: 100%;
     padding: 15px;
     height: 50px;
@@ -41,7 +44,7 @@ h1 {
     background-color: #34edf5;    
     color: #000000;
 }
-@media screen and (max-width: 1444px) and (min-width: 1201px) {
+@media screen and (max-width: 1444px) and (min-width: 1111px) {
     article {
         float: none;
         width: auto;
@@ -51,17 +54,7 @@ h1 {
         background-position: top;
     }
 }
-@media screen and (max-width: 1200px) and (min-width: 781px) {
-    article {
-        float: none;
-        width: auto;
-    }
-    body {
-        background-size: 182%;
-        background-position: top;
-    }
-}
-@media screen and (max-width: 780px) and (min-width: 561px) {
+@media screen and (max-width: 1111px) and (min-width: 561px) {
     article {
         float: none;
         width: auto;
@@ -80,7 +73,7 @@ h1 {
         background-size: 250%;
         background-position: top;
     }
-        #gl {
+        .gl {
         float: none;
         width: 100%;        
         }
@@ -94,7 +87,7 @@ h1 {
         background-size: 332%;
         background-position: top;
     }
-        #gl {
+        .gl {
         float: none;
         width: 100%;        
         }
@@ -108,24 +101,29 @@ h1 {
         background-size: 400%;
         background-position: top;
 }
-        #gl {
+        .gl {
         float: none;
         width: 100%;        
         }
 }
 @media screen and (min-width: 700px){
-    #miha {
+    .miha {
         padding: 0;
         width: 60%;
         font-weight: 900px;
         font-size: 32px;
         padding: 0;
     }
-    #back {
+    .back {
         padding: 0;
         width: 60%;
         font-weight: 900px;
         font-size: 32px;
         padding: 0;
     }
+}
+@media screen and (min-width: 560px){
+	.gl {
+		position: fixed;
+	}
 }
