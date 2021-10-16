@@ -37,7 +37,7 @@ body {
 }
 .drop:hover .dropp {
     	display: block;
-	min-width: 200px;
+	widht: auto;
 }
 h1 {
   	font-size: 34px;
