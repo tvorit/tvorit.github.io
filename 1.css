@@ -6,7 +6,33 @@ body {
         font-family: Arial, Verdana, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 900px;
-} 
+}
+.main {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.dropp {
+    position: relative;
+    display: inline-block;
+}
+.dropp {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropp a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.drop:hover .dropp {
+    display: block;
+}
 h1 {
   	font-size: 34px;
   	line-height: 1.2;
