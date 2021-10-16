@@ -7,12 +7,16 @@ body {
 	font-weight: 900px;
 }
 .main {
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
+   	cursor: pointer;
+	right: 90%;
+    	width: auto;
+    	padding: 15px;
+    	height: 50px;
+    	font-weight: 900px;
+    	font-size: 20px;
+    	border-radius: 4px;
+    	background-color: rgb(0, 215, 50);
+    	color: #000000;
 }
 .dropp {
     position: relative;
