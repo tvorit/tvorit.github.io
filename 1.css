@@ -20,22 +20,22 @@ body {
     	color: #000000;
 }
 .dropp {
-    position: relative;
-    display: inline-block;
+    	position: relative;
+    	display: inline-block;
 }
 .dropp {
-    display: none;
-    background-color: black;
-    min-width: 200px;
+    	display: none;
+    	background-color: ;
+    	min-width: 200px;
+	widht: auto;
 }
 .dropp a {
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
+    	padding: 20px;
+    	text-decoration: none;
+    	display: block;
 }
 .drop:hover .dropp {
-    display: block;
+    	display: block;
 }
 h1 {
   	font-size: 34px;
