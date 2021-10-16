@@ -9,6 +9,7 @@ body {
 }
 .main {
    	cursor: pointer;
+	float: left;
 	right: 90%;
     	width: auto;
     	padding: 15px;
