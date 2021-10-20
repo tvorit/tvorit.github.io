@@ -5,9 +5,7 @@ body {
         background-position: top;
         font-family: Arial, Verdana, Helvetica, sans-serif;
 	text-decoration: none;
-}
-body:hover {
-text-decoration: none;
+	outline: none;
 }
 .back {
     	width: 100%;
