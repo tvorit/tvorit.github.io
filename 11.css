@@ -5,6 +5,7 @@ body {
         background-position: top;
         font-family: Arial, Verdana, Helvetica, sans-serif;
 	font-weight: 900px;
+	text-decoration: none;
 }
 .main {
    	cursor: pointer;
