@@ -7,6 +7,32 @@ body {
 	text-decoration: none;
 	outline: none;
 }
+.main {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.dropp {
+    position: relative;
+    display: inline-block;
+}
+.dropp {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropp a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.drop:hover .dropp {
+    display: block;
+}
 .back {
     	width: 100%;
     	padding: 15px;
