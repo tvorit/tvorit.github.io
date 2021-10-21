@@ -1,23 +1,23 @@
 @font-face {
     font-family: "xo_verbenaregular";
-    src: url('fonts/xo_verbena_nu-webfont.eot');
-    src: url('fonts/xo_verbena_nu-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/xo_verbena_nu-webfont.woff') format('woff'),
-         url('fonts/xo_verbena_nu-webfont.ttf') format('truetype');
+    src: url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_verbena_nu-webfont.eot');
+    src: url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_verbena_nu-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_verbena_nu-webfont.woff') format('woff'),
+         url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_verbena_nu-webfont.ttf') format('truetype');
 }
 @font-face {
     font-family: "xo_orielregular";
-    src: url('fonts/xo_oriel_nu-webfont.eot');
-    src: url('fonts/xo_oriel_nu-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/xo_oriel_nu-webfont.woff') format('woff'),
-         url('fonts/xo_oriel_nu-webfont.ttf') format('truetype');
+    src: url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_oriel_nu-webfont.eot');
+    src: url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_oriel_nu-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_oriel_nu-webfont.woff') format('woff'),
+         url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_oriel_nu-webfont.ttf') format('truetype');
 }
 @font-face {
     font-family: "xo_tahionregular";
-    src: url('fonts/xo_tahion_nu-webfont.eot');
-    src: url('fonts/xo_tahion_nu-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/xo_tahion_nu-webfont.woff') format('woff'),
-         url('fonts/xo_tahion_nu-webfont.ttf') format('truetype');
+    src: url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_tahion_nu-webfont.eot');
+    src: url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_tahion_nu-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_tahion_nu-webfont.woff') format('woff'),
+         url('https://myoffice.ru/wp-content/themes/template/fonts_page/fonts/xo_tahion_nu-webfont.ttf') format('truetype');
 }
 body {
 	background-color: #ebccb1;
