@@ -17,8 +17,7 @@ body {
         background-position: top;
         font-family: "xo_verbenaregular", "xo_orielregular", "xo_tahionregular", "Verdana", "Arial", "Tahoma", "Helvetica", sans-serif;
 	text-decoration: none;
-	outline: none;
-	font-weight: bold;
+	outline: none; 
 }
 .poem {
   	margin: auto;
