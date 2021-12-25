@@ -42,7 +42,7 @@
 	 <script>
 	 function start() {
 	var value = document.getElementById("comment_button").value;
-	 if(value == "открыть коментарии") {
+	 if(value == "Открыть комментарии") {
 	 AnyComment = window.AnyComment || []; AnyComment.Comments = [];
 AnyComment.Comments.push({
     "root": "anycomment-app",
@@ -53,16 +53,18 @@ var s = document.createElement("script"); s.type = "text/javascript"; s.async = 
 s.src = "https://widget.anycomment.io/comment/embed.js";
 var sa = document.getElementsByTagName("script")[0];
 sa.parentNode.insertBefore(s, s.nextSibling);
-document.getElementById("comment_button").value = "закрыть коментарии";
+document.getElementById("comment_button").value = "Закрыть комментарии";
 document.getElementById('anycomment-app')[0].style.display = "inline-block";
-	 } else  if(value == "закрыть коментарии") {
-	 document.getElementById("comment_button").value = "открыть коментарии";
+	 } else  if(value == "Закрыть комментарии") {
+	 document.getElementById("comment_button").value = "Открыть комментарии";
      window.location.reload()
 	 document.getElementById('anycomment-app')[0].style.display = "none";
 	 }
 	 }
 	 </script>
-	 <input type="button" onclick="start()" value="открыть коментарии" class="miha"> 
+	 <center>
+	 <input type="button" onclick="start()" value="Открыть комментарии" class="miha">
+	 </center>
 	 <div id="anycomment-app"></div>
 	</body>
  </html>
