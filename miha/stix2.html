@@ -39,16 +39,9 @@
 		</p></div>
 	    </center>
 	 <br><br>
-	 
-
-	
-// ЭТО ТО, ЧТО Я ДОБАВИЛ ==========================================
-	
 	 <script>
-	
 	 function start() {
 	var value = document.getElementById("comment_button").value;
-	 
 	 if(value == "открыть коментарии") {
 	 AnyComment = window.AnyComment || []; AnyComment.Comments = [];
 AnyComment.Comments.push({
@@ -60,32 +53,16 @@ var s = document.createElement("script"); s.type = "text/javascript"; s.async = 
 s.src = "https://widget.anycomment.io/comment/embed.js";
 var sa = document.getElementsByTagName("script")[0];
 sa.parentNode.insertBefore(s, s.nextSibling);
-
-
-
-
 document.getElementById("comment_button").value = "закрыть коментарии";
 document.getElementById('anycomment-app')[0].style.display = "inline-block";
-
 	 } else  if(value == "закрыть коментарии") {
 	 document.getElementById("comment_button").value = "открыть коментарии";
-     window.location.reload();
-	 
+     window.location.reload()
 	 document.getElementById('anycomment-app')[0].style.display = "none";
 	 }
 	 }
 	 </script>
-	 
-	 
-
-	 
-	 <input type="button" onclick="start()" value="открыть коментарии" id="comment_button">
-	 
-	 
-	 
+	 <input type="button" onclick="start()" value="открыть коментарии" class="miha"> 
 	 <div id="anycomment-app"></div>
-// А ВОТ КОНЕЦ ЭТОГО ==============================================
-
-
 	</body>
  </html>
