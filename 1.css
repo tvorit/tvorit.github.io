@@ -15,22 +15,22 @@ body {
   	height: 36px;
   	width: 100%;
   	overflow: hidden;
-  	z-index: 95
+  	z-index: 95;
 }  
 .nums_1 {
-	padding: 100px
+	padding: 100px;
 }  
 #gir_1 {
-	background-position: 0 0
-	z-index: 98
+	background-position: 0 0;
+	z-index: 98;
 }  
 #gir_2 {
-	background-position: 0 -36px
-	z-index: 97
+	background-position: 0 -36px;
+	z-index: 97;
 }  
 #gir_3 {
-	background-position: 0 -72px
-	z-index: 96
+	background-position: 0 -72px;
+	z-index: 96;
 }
 .back {
     	width: 100%;
