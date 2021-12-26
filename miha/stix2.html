@@ -39,17 +39,10 @@
 		<br>23.10.2021
 		</p></div>
 	    </center>
-	 <br><br>
-	 
-
-	
-
-	
+	 <br><br>	
 	 <script>
-	
 	 function start() {
 	var value = document.getElementsByClassName("miha")[0].value;
-	 
 	 if(value == "Открыть комментарии") {
 	 AnyComment = window.AnyComment || []; AnyComment.Comments = [];
 AnyComment.Comments.push({
@@ -61,32 +54,16 @@ var s = document.createElement("script"); s.type = "text/javascript"; s.async = 
 s.src = "https://widget.anycomment.io/comment/embed.js";
 var sa = document.getElementsByTagName("script")[0];
 sa.parentNode.insertBefore(s, s.nextSibling);
-
-
-
-
 document.getElementsByClassName("miha")[0].value = "Закрыть комментарии";
 document.getElementById('anycomment-app')[0].style.display = "inline-block";
-
 	 } else  if(value == "Закрыть комментарии") {
 	 document.getElementsByClassName("miha")[0].value = "Открыть комментарии";
      window.location.reload();
-	 
 	 document.getElementById('anycomment-app')[0].style.display = "none";
 	 }
 	 }
 	 </script>
-	 
-	 
-
-	 
 	 <center><input type="button" onclick="start()" value="Открыть комментарии" class="miha"></center>
-	 
-	 
-	 
 	 <div id="anycomment-app"></div>
-
-
-
 	</body>
  </html>
