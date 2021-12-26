@@ -22,15 +22,12 @@ body {
 }  
 .gir_1 {
 	background-position: 0 0;
-	z-index: 98;
 }  
 .gir_2 {
 	background-position: 0 -36px;
-	z-index: 97;
 }  
 .gir_3 {
 	background-position: 0 -72px;
-	z-index: 96;
 }
 .back {
     	width: 100%;
