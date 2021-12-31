@@ -1,9 +1,21 @@
+@font-face {
+    font-family: "xo_verbenaregular";
+    src: url('/XO_Verbena.ttf') format('truetype');
+}
+@font-face {
+    font-family: "xo_orielregular";
+    src: url('/XO_Oriel.ttf') format('truetype');
+}
+@font-face {
+    font-family: "xo_tahionregular";
+    src: url('/XO_Tahion.ttf') format('truetype');
+}
 body {
         background-image: url("11111.jpg");
         background-attachment: fixed;
         background-size: 100%;
         background-position: top;
-        font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+        font-family: "xo_verbenaregular", "xo_orielregular", "xo_tahionregular", "Verdana", "Arial", "Tahoma", "Helvetica", sans-serif;
 	text-decoration: none;
 	outline: none;
 }
