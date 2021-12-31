@@ -12,6 +12,28 @@ img {
 	text-align: center;
       	width: 99%;
 }
+#gir {
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	background-image: url('https://lh5.googleusercontent.com/-obNunPiVVd4/VJOuk2f29_I/AAAAAAAAE3Y/SOoFIrFTTkk/s800/gerljanda1.png');
+  	height: 36px;
+  	width: 100%;
+  	overflow: hidden;
+  	z-index: 95;
+}  
+#nums_1 {
+	padding: 100px;
+}  
+.gir_1 {
+	background-position: 0 0;
+}  
+.gir_2 {
+	background-position: 0 -36px;
+}  
+.gir_3 {
+	background-position: 0 -72px;
+}
 .back {
     	width: 100%;
     	padding: 15px;
