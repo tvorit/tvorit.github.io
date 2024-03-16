@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <title>"День рождение мамы"</title>
+  <meta charset="utf-8">
+	<link rel="stylesheet" href="/11.css">
+	<link rel="icon" href="/favicon.ico?" type="image/x-icon">
+ <script type="text/javascript" src="/1.js"></script>
+ </head>
+ <body>
+ <div id="gir" class="gir_3">
+  <div id="nums_1">1</div></div>
+  <center>
+ <a href="/index.html"><input class="gl" type="button" value='Гл'></a><br>
+	<a onclick="javascript:history.back(); return false;"><input class="back" type="button" value='Назад'></a>
+	<h1>"День рождение мамы"</h1>
+	<div class="poem"><p>
+	Вы послушайте меня, 
+<br>Немного потерпи, и подожди,
+<br>Вопросы только про себя. 
+<br>Сегодня седьмое
+<br>Завтра восьмое. 
+<br>Поздравлять тебя два дня? 
+<br>Да лучше сразу за три, 
+<br>Пока овощи три. 
+<br>Сейчас желаю исполнения желанья, 
+<br>Мне нужна мотивация покруче, 
+<br>Не страшно, просто овация по плечу не пришла. 
+<br>Оздоровления делаю строчками своими, 
+<br>А себе витаминами твоими, 
+<br>Ты пойми. 
+<br>Вместе мы, 
+<br>Это не ради рифмы,
+<br>Но крутую рифму создаю, 
+<br>Когда маму люблю.
+<br>С днем рождения тебя, 
+<br>Ведь ем благодаря тебе, 
+<br>Живёшь жизнь уже не ради себя, 
+<br>Этим делаю подарок так-же и себе.
+<br>Мыло и боец... 
+<br>Начало и конец...
+    <br>
+	<br>07.03.2022
+		</p></div>
+	    </center>
+	 <br><br>
+	 <script>
+	 function start() {
+	var value = document.getElementsByClassName("miha")[0].value;
+	 if(value == "Открыть комментарии") {
+	 AnyComment = window.AnyComment || []; AnyComment.Comments = [];
+AnyComment.Comments.push({
+    "root": "anycomment-app",
+    "app_id": 2954,
+    "language": "ru"
+})
+var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+s.src = "https://widget.anycomment.io/comment/embed.js";
+var sa = document.getElementsByTagName("script")[0];
+sa.parentNode.insertBefore(s, s.nextSibling);
+document.getElementsByClassName("miha")[0].value = "Закрыть комментарии";
+document.getElementById('anycomment-app')[0].style.display = "inline-block";
+	 } else  if(value == "Закрыть комментарии") {
+	 document.getElementsByClassName("miha")[0].value = "Открыть комментарии";
+     window.location.reload();
+	 document.getElementById('anycomment-app')[0].style.display = "none";
+	 }
+	 }
+	 </script>
+	 <center><input type="button" onclick="start()" value="Открыть комментарии" class="miha"></center>
+	 <div id="anycomment-app"></div>
+</body>
+</html>
