@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <title>"Цефей"</title>
+  <meta charset="utf-8">
+	<link rel="stylesheet" href="/11.css">
+	<link rel="icon" href="/favicon.ico?" type="image/x-icon">
+  <script type="text/javascript" src="/1.js"></script>
+ </head>
+ <body>
+ <div id="gir" class="gir_3">
+  <div id="nums_1">1</div></div>
+  <center>
+ <a href="/index.html"><input class="gl" type="button" value='Гл'></a><br>
+	<a onclick="javascript:history.back(); return false;"><input class="back" type="button" value='Назад'></a>
+	<h1>"Цефей"</h1>
+	<div class="poem"><p>
+	Сделай так.
+<br>Я прошу тебя, сделай так,
+<br>чтоб простил я себе пустяк,
+<br>чтобы точкой, да карандашом
+<br>я б таки посторил дом.
+<br>Где-нибудь рядом с Ковшом.
+<br>Закрывшись там, в себя уйду.
+<br>
+<br>
+<br>Проснусь ребёнком поутру?
+<br>Иль пропаду навек...
+<br>Забуду всё как человек, 
+<br>каким я был, и нет.
+<br>Цикадный стрекот милых лет
+<br>и поле влажное как снег.
+<br>Меня теряли без конца:
+<br>— Уж время, поздний час.
+<br>А я созвездия искал,
+<br>им говорил,
+<br>и им обет
+<br>давал.
+<br>А что сейчас? 
+<br>
+<br>Быть может, просто попрошу 
+<br>украсть себе мою звезду. 
+<br>
+<br>Как завертелась тьма... 
+<br>
+<br>... 
+<br>
+<br>— Никак не отойду от сна... 
+<br>
+<br>Останься в тишине ковра,
+<br>по нем ведёт моя рука
+<br>и болью вокруг глаз
+<br>обводит мыслей класс.
+<br>— Всё как в прошлый раз.
+<br>
+<br>
+<br>— Взгляни...
+<br>В то ясноокое окно,
+<br>будто в ночь вёдёт оно.
+<br>И, бликуя глубиной,
+<br>увлекает за собой.
+<br>
+<br>
+<br>Вот дунул лёгкий ветерок
+<br>и все сомнения присёк,
+<br>по-доброму любя.
+<br>А всё же лёгкий холодок
+<br>под кожей пробежал,
+<br>к ступням спустился,
+<br>в пол впитался. 
+<br>
+<br>Я ушёл
+<br>И я остался
+<br>
+<br>03.04.2024
+		</p></div>
+	    </center>
+	 <br><br>
+	 <script>
+	 function start() {
+	var value = document.getElementsByClassName("miha")[0].value;
+	 if(value == "Открыть комментарии") {
+	 AnyComment = window.AnyComment || []; AnyComment.Comments = [];
+AnyComment.Comments.push({
+    "root": "anycomment-app",
+    "app_id": 2954,
+    "language": "ru"
+})
+var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+s.src = "https://widget.anycomment.io/comment/embed.js";
+var sa = document.getElementsByTagName("script")[0];
+sa.parentNode.insertBefore(s, s.nextSibling);
+document.getElementsByClassName("miha")[0].value = "Закрыть комментарии";
+document.getElementById('anycomment-app')[0].style.display = "inline-block";
+	 } else  if(value == "Закрыть комментарии") {
+	 document.getElementsByClassName("miha")[0].value = "Открыть комментарии";
+     window.location.reload();
+	 document.getElementById('anycomment-app')[0].style.display = "none";
+	 }
+	 }
+	 </script>
+	 <center><input type="button" onclick="start()" value="Открыть комментарии" class="miha"></center>
+	 <div id="anycomment-app"></div>
+	</body>
+ </html>
